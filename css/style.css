@@ -1,0 +1,41 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: red;
+    background-image: url("https://picsum.photos/200/300");
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    gap: 100px;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    background-color: white;
+}
+
+.navBar a {
+    text-decoration: none;
+    text-align: center;
+    padding: 12px;
+    color: black;
+    font-size: 20px;
+}
+
+section {
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    padding-top: 250px;
+
+}
