@@ -1,7 +1,7 @@
 * {
     scroll-behavior: smooth;
-    font-family: sans-serif, Arial;
-    background-color: #F9DFDF;
+    font-family: "Montserrat";
+    /* box-sizing: border-box; */
 }
 
 .logo {
@@ -72,4 +72,141 @@ section {
     width: 500px;
     font-size: 20px;
     margin-top: 20px;
+}
+
+#Profile-header {
+    text-align: left;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+
+#Profile-header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#Profile-header p {
+    font-size: 20px;
+}
+
+
+#my-service-detail {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 100px;
+    padding: 0px 50px; 
+    margin-top: 72px;
+}
+
+#my-service-detail-item {
+    box-shadow: 8px 4px 4px #979797;
+}
+
+#my-service-detail-item:hover {
+    transform: scale(1.15);
+}
+
+#my-service-detail-item img {
+    width: 100%;
+}
+
+#my-service-detail-item h2 {
+    padding: 0 16px;
+}
+
+#my-service-detail-item p {
+    font-size: 16px;
+    padding: 0 16px;
+}
+
+#my-skills-detail {
+    padding: 0px 50px; 
+    margin-top: 100px;
+}
+
+#Portofolio {
+    margin-top: 300px;
+    display: flex;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    gap: 100px;
+}
+
+#my-skills-detail {
+    text-align: left;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+#my-skills-detail h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+#my-skills-detail p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+#Portofolio img {
+    height: 400px;
+    width: 600px;
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+/* Container Form */
+#Message-us {
+  max-width: 600px;      
+  margin: 40px auto;      
+  /* background: #f2f2f2; */
+  padding: 50px;
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 120px;
+  margin-bottom: 300px;
+}
+
+/* Input, Select, Textarea */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  background-color: #fafafa;
+}
+
+/* Textarea tinggi lebih rapi */
+textarea {
+  min-height: 130px;
+}
+
+/* Tombol Submit */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#footer {
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin-top: 300px;
+}
+
+#footer p {
+    font-size: 20px;
 }

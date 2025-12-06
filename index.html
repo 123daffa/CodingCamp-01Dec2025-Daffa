@@ -39,24 +39,67 @@
         </section>
 
         <section id="Our-profile">
-            <h2>About Me</h2>
-            <p> Brief introduction about yourself or your company. Highlight your skills, experience, and values. </p>
+            <div id="Profile-header">
+                <h1>Our Profile</h1>
+                <p> We are a team of dedicated professionals committed to delivering high-quality services. Our expertise spans various fields, ensuring we can meet diverse client needs. </p>
+            </div>
+            <div id="my-service-detail">
+                <div id="my-service-detail-item">
+                    <img src="img/web-application.jpg" alt="">
+                    <h2>Web Application</h2>
+                    <p> Perangkat lunak yang berjalan di server web dan diakses melalui peramban web, yang memungkinkan pengguna berinteraksi dengan konten dan melakukan tugas-tugas seperti perbankan daring, e-commerce, atau menggunakan alat daring seperti Google Docs. </p>
+                </div>
+                <div id="my-service-detail-item">
+                    <img src="img/UIUX.jpg" alt="">
+                    <h2>UI/UX Desain</h2>
+                    <p> Desain antarmuka pengguna (UI) dan pengalaman pengguna (UX) yang berfokus pada pembuatan produk yang mudah digunakan, menarik secara visual, dan memberikan pengalaman yang memuaskan bagi pengguna. </p>
+                    </div>
+                <div id="my-service-detail-item">
+                    <img src="img/mobile-application.jpg" alt="">
+                    <h2>Mobile Application</h2>
+                    <p>Program perangkat lunak yang dirancang untuk berjalan di perangkat seluler seperti ponsel pintar, tablet, dan jam tangan pintar.</p>
+                </div>
+            </div>
         </section>
 
         <section id="Portofolio">
-            <h2>My Work</h2>
-            <p> Showcase your projects, case studies, or products. Include images, descriptions, and links to live demos or repositories. </p>
+            <div id="gambar-project">
+                <img src="img/foto-portofolio.jpg" alt="Foto Portofolio">
+            </div>
+            <div id="my-skills-detail">
+                <h1>Our Project</h1>
+                <p>Proyek yang saya tampilkan di sini merupakan hasil dari pengalaman saya dalam pengembangan aplikasi, analisis kebutuhan, serta implementasi solusi berbasis teknologi. Setiap karya mencerminkan kompetensi dan pendekatan kerja profesional.</p>
+            </div>
         </section>
 
         <section id="Message-us">
-            <h2>Contact Me</h2>
-            <p> Provide your contact information or a contact form for visitors to reach out to you. </p>
+            <div>
+                <form action="">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </section>
     </main>
 
-
     <!-- Footer -->
-    <footer>
+    <footer id="footer">
+        <hr>
         <p>&copy; 2025 My Portfolio. All rights reserved.</p>
     </footer>
 
